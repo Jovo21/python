@@ -1,0 +1,12 @@
+n = int(input("n sonini kiriting: "))
+
+power_of_2 = 1
+k = 0
+while power_of_2 < n:
+    power_of_2 *= 2
+    k += 1
+
+if power_of_2 == n:
+    print("k =", k)
+else:
+    print("n 2 ning darajasi emas")
